@@ -31,5 +31,3 @@ for(let i = 0; i < data.length; i++){
   data[i] = Number(prompt('Enter your value'));
 }
 console.log(data);
-
-// array reversing
