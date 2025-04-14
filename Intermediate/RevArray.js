@@ -2,7 +2,8 @@
 let revArray = [10, 20, 30, 40, 50];
 
 console.log(revArray)
-let i = 0, j = revArray.length-1
+let i = 0
+let j = revArray.length-1
 
 while(i!=j){
   let temp = revArray[i]
@@ -15,3 +16,21 @@ while(i!=j){
 }
 
 console.log(revArray)
+
+
+// solve this #1
+// let arr = [50, 40, 30, 20, 10]
+
+// let x = 0
+// let y = arr.length-1
+// console.log(y)
+
+// while(y!=x) {
+//   let temp = arr[x]
+//   arr[x] = arr[y]
+//   arr[y] = temp
+//   x++
+//   y++
+// }
+
+// console.log(arr)
