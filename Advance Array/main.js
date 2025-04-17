@@ -11,7 +11,7 @@ const leftRotation = () => {
 
   array[array.length - 1] = copy
 
-  console.log(array)
+  return array;
 }
 
 const rightRotation = () => {
@@ -30,3 +30,15 @@ const rightRotation = () => {
 
 }
 
+const nestedLoop = () => {
+  for(let j = 1; j <= 2; j++){
+    console.log(j + " execution");
+
+    for(let i = 1; i <= 1; i++){
+      let ans = leftRotation()
+      console.log(ans)
+    }
+  }
+}
+
+nestedLoop()
