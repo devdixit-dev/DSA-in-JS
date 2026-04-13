@@ -1,0 +1,5 @@
+1. String methods
+2. Linear search (array & object)
+3. Basic JS & math function
+4. Basic array & switch case
+5. Left, right rotation and nested loop
